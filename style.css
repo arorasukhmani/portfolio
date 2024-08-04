@@ -12,10 +12,16 @@
 }
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color:#0ef;
+    --bg-color: #b39ddb;
+    --second-bg-color: #000;
+    --text-color: #ffffff;
+    --main-color: #40304b;
+  
+    
+    /* --main-color: #b39ddb; */
+    
+    
+    
 }
 
 html{
@@ -62,6 +68,7 @@ section{
     color: var(--text-color);
     margin-left: 4rem;
     transition: 3s;
+    
 }
 
 .navbar a:hover,
@@ -141,8 +148,8 @@ span{
 
 .social-media a:hover{
     background: var(--main-color);
-    color: var(--second-bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
+    color: #b39ddb;
+    /* box-shadow: 0 0 1rem var(--main-color); */
 }
 
 .btn{
@@ -150,16 +157,16 @@ span{
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    /* box-shadow: 0 0 1rem var(--main-color); */
     font-size: 1.6rem;
-    color: var(--second-bg-color);
+    color:#b39ddb;
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
 }
 
 .btn:hover{
-    box-shadow: none;
+    translate: 0 -10px;
 }
 
 .about{
@@ -193,6 +200,13 @@ span{
     margin: 2rem 0 3rem;
 }
 
+.about-content{
+    .btn{
+        background:#b39ddb;
+        color: var(--main-color);
+    }
+}
+
 .certificates h2{
     margin-bottom: 5rem;
 }
@@ -222,7 +236,7 @@ span{
 
 .certificates-box i{
     font-size: 7rem;
-    color: var(--main-color);
+    color: #b39ddb;
 }
 
 .certificates-box h3{
@@ -232,6 +246,13 @@ span{
 .certificates-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+
+.certificates-box {
+    .btn{
+        background:#b39ddb;
+        color: var(--main-color);
+    }
 }
 
 .portfolio{
@@ -252,7 +273,7 @@ span{
 .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
+    /* box-shadow: 0 0 1rem var(--bg-color); */
     overflow: hidden;
     display: flex;
 }
@@ -370,13 +391,13 @@ span{
     justify-content: center;
     align-items: center;
     padding: .8rem;
-    background: var(--main-color);
+    background: #b39ddb;
     border-radius: .8rem;
     transition: .5s ease;
 }
 
 .footer-iconTop a:hover{
-    box-shadow: 0 0 1rem var(--main-color);
+    /* box-shadow: 0 0 1rem var(--main-color); */
 }
 
 .footer-iconTop a i{
@@ -430,7 +451,7 @@ span{
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0,.2);
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+        /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.2); */
         display: none;
     }
 

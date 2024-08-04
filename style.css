@@ -12,10 +12,17 @@
 }
 
 :root{
+<<<<<<< HEAD
     --bg-color: #2E2E2E;
     --second-bg-color: #b39ddb;
     --text-color: #E0E0E0;
     --main-color: #b39ddb;
+=======
+    --bg-color: #b39ddb;
+    --second-bg-color: #000;
+    --text-color: #ffffff;
+    --main-color: #40304b;
+>>>>>>> a8577b3d71defc8a395fbd7e8b7abfa2628ad5d3
   
     
     /* --main-color: #b39ddb; */
@@ -148,7 +155,11 @@ span{
 
 .social-media a:hover{
     background: var(--main-color);
+<<<<<<< HEAD
     color: #2E2E2E;
+=======
+    color: #b39ddb;
+>>>>>>> a8577b3d71defc8a395fbd7e8b7abfa2628ad5d3
     /* box-shadow: 0 0 1rem var(--main-color); */
 }
 
@@ -159,7 +170,11 @@ span{
     border-radius: 4rem;
     /* box-shadow: 0 0 1rem var(--main-color); */
     font-size: 1.6rem;
+<<<<<<< HEAD
     color:#2E2E2E;
+=======
+    color:#b39ddb;
+>>>>>>> a8577b3d71defc8a395fbd7e8b7abfa2628ad5d3
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
@@ -214,6 +229,13 @@ span{
     }
 }
 
+.about-content{
+    .btn{
+        background:#b39ddb;
+        color: var(--main-color);
+    }
+}
+
 .certificates h2{
     margin-bottom: 5rem;
 }
@@ -243,7 +265,11 @@ span{
 
 .certificates-box i{
     font-size: 7rem;
+<<<<<<< HEAD
     color: #E0E0E0;
+=======
+    color: #b39ddb;
+>>>>>>> a8577b3d71defc8a395fbd7e8b7abfa2628ad5d3
 }
 
 .certificates-box h3{
@@ -258,6 +284,7 @@ span{
 
 .certificates-box {
     .btn{
+<<<<<<< HEAD
         background:#2E2E2E;
         color: var(--main-color);
     }
@@ -340,6 +367,12 @@ span{
     padding: 0 10px; /* Adjust padding if needed */
 }
 
+=======
+        background:#b39ddb;
+        color: var(--main-color);
+    }
+}
+>>>>>>> a8577b3d71defc8a395fbd7e8b7abfa2628ad5d3
 
 .portfolio{
     background: var(--second-bg-color);
@@ -483,7 +516,11 @@ span{
     justify-content: center;
     align-items: center;
     padding: .8rem;
+<<<<<<< HEAD
     background: #2E2E2E;
+=======
+    background: #b39ddb;
+>>>>>>> a8577b3d71defc8a395fbd7e8b7abfa2628ad5d3
     border-radius: .8rem;
     transition: .5s ease;
 }

@@ -62,3 +62,37 @@ ScrollReveal().reveal('.home-content p, .about-content', { orgin: 'right' });
 //     backDelay: 1000,
 //     loop:true
 // });
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var fullName = document.getElementById('fullName').value;
+    var emailAddress = document.getElementById('emailAddress').value;
+    var mobileNumber = document.getElementById('mobileNumber').value;
+    var emailSubject = document.getElementById('emailSubject').value;
+    var message = document.getElementById('message').value;
+
+    var formData = {
+        fullName: fullName,
+        emailAddress: emailAddress,
+        mobileNumber: mobileNumber,
+        emailSubject: emailSubject,
+        message: message
+    };
+
+    // Send data to server
+    fetch('your_server_script_url', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Success:', data);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+});
